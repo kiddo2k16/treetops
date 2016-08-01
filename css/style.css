@@ -1,3 +1,14 @@
+@font-face{
+	font-family: CaviarDreams-regular;
+	src:url(../fonts/CaviarDreams.ttf);
+}
+
+
+body{
+	font-family: CaviarDreams-regular;
+	font-weight: normal;
+}
+
 *{
 	padding:0;
 	margin:0;
@@ -12,6 +23,9 @@
 	max-width: 1024px;
 	margin:0 auto;
 }
+.div-row-1{
+	background: #5d2113;		
+}
 .d-h-row-1{
 	background: #5d2113;
 	padding: 10px 20px;
@@ -19,8 +33,29 @@
 }
 
 .d-h-col{
-
+	color:#ffffff;
 	display: inline-block;
-	max-width:33%;
+	max-width:32%;
 	width: 100%;
+	text-transform: uppercase;
+	font-size: 0.7em;
 }
+
+.div-row-2{
+	height: 150px;
+	background: #f7f7f8;
+	
+}
+
+
+.d-h-row-2{
+	text-align: center;
+}
+.d-h-col-2{
+	display: inline-block;
+	max-width:32%;
+	width: 100%;
+	text-transform: uppercase;
+	font-size: 0.7em;	
+}
+
