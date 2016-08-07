@@ -7,6 +7,42 @@
     src:url(../fonts/CaviarDreams_Bold.ttf);
 }
 
+@font-face{
+    font-family: Raleway-light;
+    src:url(../fonts/Raleway-Light.ttf);
+    
+}
+@font-face{
+    font-family: Raleway-italic;
+    src:url(../fonts/Raleway-Italic.ttf);
+    
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body{
 	font-family: CaviarDreams-regular;
 	font-weight: normal;
@@ -173,5 +209,71 @@ a{
     cursor: pointer;
 }
 .div-row-3 {
+    position: relative;
     background:rgba(213, 211, 211, 0.5);
 }
+
+
+.div-row-4{
+    margin-top:-35px;
+    background: url(../images/home-bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 660px;
+}
+.div-row-5 {
+    height: 268px;
+    background:#fff;
+    width: 100%;
+}
+
+.sli-col {
+    display: inline-block;
+    width: 100%;
+    max-width: 48%;
+}
+
+.sli-col-desc {
+    text-align: center;
+    position: relative;
+    top:250px;
+}
+
+.sli-col-desc button{
+    cursor: pointer;
+    margin-top:10px;
+    padding:1% 7%;
+    text-transform: uppercase;
+    font-size: 12px;
+    background: none;
+    border:1px solid #ff4081;
+    color:#ff4081;
+}
+
+
+.sli-col-desc h2{
+    font-family: Raleway-light;
+    font-size: 36px;
+    color: #5d2113;
+}
+
+.sli-col-desc h5{
+    font-family: Raleway-italic;
+    font-size: 14px;
+    color:#756767;
+}
+
+
+.f-m-p-col {
+    height: 200px;
+    width: 100%;
+    max-width: 400px;
+    display: inline-block;
+}
+
+.f-m-p-col img{
+    position: absolute;
+	left: 0;
+		-webkit-transition: all 300ms ease-out;	
+	transition: all 300ms ease-out;
+}
+
