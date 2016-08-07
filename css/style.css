@@ -2,7 +2,10 @@
 	font-family: CaviarDreams-regular;
 	src:url(../fonts/CaviarDreams.ttf);
 }
-
+@font-face{
+    font-family: CaviarDreams-bold;
+    src:url(../fonts/CaviarDreams_Bold.ttf);
+}
 
 body{
 	font-family: CaviarDreams-regular;
@@ -17,10 +20,13 @@ body{
 
 }
 
+a{
+    text-decoration: none;
+}
 
 .container{
 	width:100%;
-	max-width: 1024px;
+	max-width: 1366px;
 	margin:0 auto;
 }
 .div-row-1{
@@ -41,6 +47,7 @@ body{
 	font-size: 0.7em;
 }
 
+
 .div-row-2{
 	height: 150px;
 	background: #f7f7f8;
@@ -55,7 +62,116 @@ body{
 	display: inline-block;
 	max-width:32%;
 	width: 100%;
-	text-transform: uppercase;
-	font-size: 0.7em;	
+	font-size: 0.7em;
+    margin-top:1%
+}
+.d-h-col-2 img{
+    width: 100%;
+    max-width: 60%;
+    position: relative;
+    top:15px;
 }
 
+.d-h-col-2 h5{
+    font-size: 14px;
+    color:#8b8b8b;
+    font-weight: 100;
+}
+
+.d-h-col-2 h2{
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.d-h-col-2 h2 span{
+    color:#ff4081;
+}
+
+
+
+.greview {
+    background-image: url(../images/g+.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    
+}
+
+
+
+
+.img-rvw {
+    display: inline-block;
+}
+
+.img-rvw img{
+    width: 100%;
+    max-width: 40px;
+}
+
+.desc {
+    
+}
+
+.t-r-desc {
+    position: relative;
+    top:-13px;
+}
+.nav{
+    width: 100%;
+    padding:5px 0;
+}
+
+.nav-b {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.nav-b a{
+    
+    font-size: 14px;
+    
+}
+
+.nav-col-lr {
+    width: 100%;
+    max-width: 14%;
+    text-align: center;
+}
+
+
+
+.nav-col-menu {
+    text-align: center;
+    width: 100%;
+    max-width: 69%;
+}
+
+.nav-col-menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+.nav-col-menu ul li a {
+    margin-top:2px;
+    margin:0 3%;
+     padding:2% 20%;
+    font-family: CaviarDreams-bold;
+    color:#5d2113;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+}
+
+.nav-b button{
+    border:1px solid #fff;
+    padding:2% 10%;
+    background: none;
+    color:#ff4081;
+    cursor: pointer;
+}
+.div-row-3 {
+    background:rgba(213, 211, 211, 0.5);
+}
