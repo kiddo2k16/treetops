@@ -13,11 +13,25 @@
     
 }
 @font-face{
+    font-family:Raleway-med;
+    src:url(../fonts/Raleway-Medium.ttf);
+}
+@font-face{
     font-family: Raleway-italic;
     src:url(../fonts/Raleway-Italic.ttf);
     
 }
 
+@font-face{
+    font-family:Raleway-bold;
+    src:url(../fonts/Raleway-Bold.ttf);
+}
+
+
+@font-face{
+    font-family:CaviarDreams_BoldItalic;
+    src:url(../fonts/CaviarDreams_BoldItalic.tff);
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -221,8 +235,8 @@ a{
     height: 660px;
 }
 .div-row-5 {
-    margin:50px 0;
-    background:#fff;
+    padding:50px 0;
+    background:#f5f5f5;
     width: 100%;
 }
 
@@ -287,4 +301,297 @@ a{
 
 .f-m-p-cen {
     text-align: center;
+}
+
+.title-dec-ab h2{
+    text-align: center;
+    font-size: 48px;
+      font-family: CaviarDreams-bold;
+    color:#ff4081;
+    text-transform: uppercase;
+}
+
+.title-dec-ab h5 {
+    text-align: center;
+    color:#908b8d;
+    font-size: 14px;
+    font-family: CaviarDreams-regular;
+    
+}
+
+.title-dec-ab p{
+    letter-spacing: 0.1em;
+    padding:0 25%;
+    text-align: center;
+    margin-top:20px;
+    line-height: 2em;
+    font-size: 12px;
+    color:#908b8d;
+    font-family:Raleway-med;
+}
+
+
+.div-row-6{
+    background-image: url(../images/flower-de.png);
+    background-repeat: no-repeat;
+    
+    padding:50px 0;
+}
+.t-p-col {
+    text-align: center;
+    width: 100%;
+    max-width: 33.3%;
+    height: 352px;
+    float: left;
+}
+
+.t-p-col img{
+    width: 100%;
+    max-width: 454px;
+}
+
+.t-p-col-inf h2{
+    padding-top:70px;
+    font-family: CaviarDreams-bold;
+    font-size: 30px;
+    color: #332617;
+    
+}
+
+.t-p-col-inf h5{
+    font-size: 14px;
+    color: #929292;
+}
+
+
+.t-p-col-inf p{
+    font-size: 14px;
+    color: #878787;
+    font-family:Raleway-med;        
+    padding: 50px 80px;
+}
+
+.t-p-col-inf a{
+    color:#595256;
+    font-family: CaviarDreams-bold;
+}
+
+.div-row-8 {
+    background-image: url(../images/download-brochure.jpg);
+    background-repeat: no-repeat;
+    width: 100%;      
+    height: 209px;
+}
+    
+
+.clearFixed{
+    clear: both;
+}
+.dl-b {
+    text-align: center;
+}
+
+.dl-b a button{
+    margin:6% 0 0 0;
+    padding:15px 80px;
+    background:#563528;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family:Raleway-bold;
+    cursor: pointer;
+}
+
+.m-of-con {
+    text-align: center;
+}
+
+.b-of-con {
+    text-align: center;
+}
+
+.div-row-9 {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e8e8e8+100 */
+background: #ffffff; /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
+background: -webkit-linear-gradient(#ffffff 0%, #e8e8e8 100%);
+background: linear-gradient(#ffffff 0%, #e8e8e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e8e8e8',GradientType=0 ); /* IE6-9 */
+  
+    padding:50px 0;
+}
+
+
+].m-of-inf {
+    padding:0 50px;
+    width: 100%;
+    max-width: 49%;
+    text-align: center;
+    float: left;
+}
+
+.m-of-inf-img {
+    float: right;
+    width: 100%;
+    max-width: 49%;
+    
+}
+
+.g-cert-con {
+    text-align: center;
+}
+
+.div-row-10 {
+    padding:80px 0;
+}
+
+.g-cert-img {
+    text-align: center;
+}
+
+.btn-g-cert {
+    text-align: center;
+    
+}
+
+.btn-g-cert button{
+    padding: 10px 70px;
+    font-size: 18px;
+    color:#fff;
+    font-family:Raleway-bold;
+    background: #563528;
+    cursor: pointer;
+}
+
+.div-row-11 {
+    background: url(../images/what-our-clients-says.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 560px;
+    padding:50px 0;
+    color: #fff;  
+}
+
+.wh-or-c {
+    text-align: center;
+}
+
+.wh-cs-ds {
+    padding:30px 0;
+    width: 100%;
+    max-width: 700px;
+    margin:0 auto;
+}
+
+.wh-or-c-title h2{
+    font-size: 48px;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding:50px 0;
+}
+
+.wh-nm h2{
+    font-size: 18px;
+    color:#fff;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+.wh-po h5{
+    font-size: 14px;
+    font-style: italic;
+}
+
+.div-row-12 {
+    padding:50px 0;
+}
+
+.po-dv {
+    padding: 50px 0;
+}
+
+.re-icon-h {
+    padding:80px 0;
+    text-align: center;
+}
+
+.re-icon-h img{
+    padding:0 40px;
+}
+
+
+.re-desc {
+    width: 100%;
+    max-width: 400px;
+    margin:0 auto;
+    
+}
+
+.re-desc p {
+    text-align: center;
+}
+.div-row-13 {
+    padding:50px; 0;
+    background: #581818;   
+}
+
+.f-div {
+    text-align: center;
+}
+
+.f-div p{
+    color:#fff;
+    padding-top: 30px;`
+}
+
+.f-d-col img{
+    width:100%;
+    max-width: 200px;
+}
+
+.f-d-col {
+    width: 100%;
+    max-width: 33%;
+    display: inline-block;
+
+}
+
+.ad-img {
+    position: relative;
+    top:-40px;
+}
+
+.ad-img2 {
+    position: relative;
+    top:-20px;
+}
+
+.b-t-t a{
+    width: 50px;
+    height: 50px;
+    background: #d3113e;
+    color: #fff;
+    font-weight: bold;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+
+.tr8-div-1{
+    background: url(../images/tr8-h-bg.jpg);
+
+}
+.tr8-h{
+        background:rgba(0, 0, 0, 0.5);
+}
+.tr8-h-title h2{
+    padding: 40px 0;
+    text-align: center;
+    font-family: CaviarDreams-bold;
+    font-size: 36px;
+    color:#fff;
+    text-transform: uppercase;
+
 }
