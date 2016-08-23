@@ -670,6 +670,27 @@ background: linear-gradient(#ffffff 0%, #e8e8e8 100%); /* W3C, IE10+, FF16+, Chr
 .tr8-li {
 	width: 20%;
 	float: left;
+	padding: 20px;
+}
+.tr8-li h2{
+	text-transform: uppercase;
+	font-weight: bold;
+	color:#333;
+}
+.tr8-li ul {
+	margin-top:10px;
+	list-style-type: none;
+}
+
+.tr8-li ul li {
+	
+	font-family: Raleway-light;
+	font-size: 13px;
+	padding:5px 0 5px 20px;
+}
+
+.tr8-li ul li a{
+	color:#333;
 }
 
 .tr8-h-col {
@@ -700,22 +721,35 @@ background: linear-gradient(#ffffff 0%, #e8e8e8 100%); /* W3C, IE10+, FF16+, Chr
 .tr8-h-ti{
 	border-bottom:1px solid #ede9e9;	
 	padding-bottom: 10px;
-	padding: 20px;
+	padding: 20px 0 20px 40px;
+	background: #ff4081;
 }
 
 .tr8-h-ti h2{
-	font-size: 15px;
+	font-family: Raleway-light;
+	font-size: 20px;
 	text-transform: uppercase;
 	font-weight: bold;
-	color:#412b07;
+	color:#fff;
 	letter-spacing: 1px;
 }
 
 
 .tr8-h-dc{
-	padding: 20px;
+	padding: 20px 40px;
 	
 	border-bottom: 1px solid #e9ebee;
+	
+}
+.tr8-h-dc ul {
+	padding-top: 10px;
+	width: 100%;
+	max-width: 300px;
+	margin:0 auto;
+	font-family: Raleway-light;
+	font-size: 12px;
+	color: #888888;
+	line-height: 2em;
 	
 }
 
@@ -741,10 +775,48 @@ background: linear-gradient(#ffffff 0%, #e8e8e8 100%); /* W3C, IE10+, FF16+, Chr
 }
 
 .tr8-sh-sec {
+	border-top: 1px solid #e9ebee;
+	border-bottom: 1px solid #e9ebee;
 	text-align: center;
 }
 
+.tr8-sh-sec img{
+	width: 100%;
+	max-width: 30px;
+	margin:0 2px;
+}
+
 .tr8-sh-col {
+	font-size: 12px;
+	font-weight: bold;
+	color: #848484;
+	width: 49.8%;
+	padding: 5px 0;
+	float: left;
+}
+
+.tr8-sh-col button a{
+	color:#fff;
+	background:brown;
+	padding:10px 40px;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+.tr8-sh-col p{
+	line-height: 2.5em;
+}
+.tr-bd {
+
+	border-right: 1px solid #e9ebee;
+}
+
+.tr8-pr-sec {
+	text-align: center;
+	border-bottom: 1px solid #e9ebee;
+}
+
+
+.tr8-pr-col {
 	font-size: 12px;
 	font-weight: bold;
 	color: #848484;
@@ -753,7 +825,17 @@ background: linear-gradient(#ffffff 0%, #e8e8e8 100%); /* W3C, IE10+, FF16+, Chr
 	float: left;
 }
 
-.tr-bd {
-	border-left: 1px solid #e9ebee;
-	border-right: 1px solid #e9ebee;
+.tr8-btn-c {
+	padding:20px;
+	text-align: center;
 }
+.tr8-btn-c button a{
+		color:#fff;
+	background:brown;
+	padding:10px 50px;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+
+
