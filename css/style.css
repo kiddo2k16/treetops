@@ -599,3 +599,65 @@ background: linear-gradient(#ffffff 0%, #e8e8e8 100%); /* W3C, IE10+, FF16+, Chr
     text-transform: uppercase;
 
 }
+.div-row-14 {
+	padding:50px 0;
+	text-align: center;
+}
+
+.hFund-desc {
+	
+}
+
+.hFund-desc h5
+{
+	color: #532706;
+    font-family: CaviarDreams-bold;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.hFund-desc h2{
+	color:#ff4081;
+	font-size: 48px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding:20px 0;
+}
+
+.hFund-desc p {
+	line-height: 2em;
+	letter-spacing:0.5px;
+	color: #62605e;
+	font-size: 12px;
+    font-family:Raleway-med;
+	
+}
+
+
+.pri-rem-con p{
+	padding:10px 0;
+	font-size: 12px;
+	color: #62605e;
+	font-family:Raleway-med;
+	
+}
+
+.pri-rem p{
+	color:#999490;
+	border-top: 1px solid #e3e1df;
+	border-bottom: 1px solid #e3e1df;
+	width: 100%;
+	max-width: 300px;
+	margin:0 auto;
+}
+
+.pri-rem-con button a{
+	text-decoration: none;
+	color:#fff;
+	background: #ff4081;
+	padding: 10px 60px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: CaviarDreams-bold;
+
+}
