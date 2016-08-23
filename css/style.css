@@ -714,13 +714,16 @@ background: linear-gradient(#ffffff 0%, #e8e8e8 100%); /* W3C, IE10+, FF16+, Chr
 
 .tr8-h-dc{
 	padding: 20px;
+	
+	border-bottom: 1px solid #e9ebee;
+	
 }
 
 .tr8-h-dc p{
 	
-    font-family:Raleway-med;
+    font-family:Raleway-light;
 	font-size: 12px;
-	color:#8b8686;
+	color:#520925;
 	letter-spacing: 1px;
 	line-height: 1.8em;
 }
@@ -729,9 +732,28 @@ background: linear-gradient(#ffffff 0%, #e8e8e8 100%); /* W3C, IE10+, FF16+, Chr
 	font-family: Raleway-med;
 	font-size: 12px;
 	color: #333;
+	border-bottom: 1px solid #e9ebee;
 }
 
 .tr8-fea ul li{
 	text-decoration: none;
 	list-style-type: none;
+}
+
+.tr8-sh-sec {
+	text-align: center;
+}
+
+.tr8-sh-col {
+	font-size: 12px;
+	font-weight: bold;
+	color: #848484;
+	width: 33%;
+	padding: 20px 0;
+	float: left;
+}
+
+.tr-bd {
+	border-left: 1px solid #e9ebee;
+	border-right: 1px solid #e9ebee;
 }
