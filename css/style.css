@@ -695,8 +695,7 @@ background: linear-gradient(#ffffff 0%, #e8e8e8 100%); /* W3C, IE10+, FF16+, Chr
 
 .tr8-h-col {
 	background: #fff;
-	width: 45%;
-	float: left;
+	margin-bottom: 20px;
     border: 1px solid;
     border-color: #e5e6e9 #dfe0e4 #d0d1d5;
     border-radius: 3px
@@ -836,6 +835,206 @@ background: linear-gradient(#ffffff 0%, #e8e8e8 100%); /* W3C, IE10+, FF16+, Chr
 	text-transform: uppercase;
 	font-size: 11px;
 }
+
+
+
+.container-tr {
+    overflow: hidden;
+}
+.right-tr {
+    float: right;
+    width: 284px;
+	background: #333;
+}
+.left-tr {
+    float: left;
+    width: 180px;
+	padding-top:20px;
+}
+.middle-tr {
+	overflow: hidden;
+    margin:;
+	padding: 0 20px;
+}
+
+.left-tr h2{
+	font-family: Raleway-med;
+	color:#333;
+	padding-bottom: 10px;	
+}
+.left-tr ul li{
+	padding-left: 5px;
+}
+.left-tr ul li a{
+	line-height:2em;
+	font-family: Raleway-med;
+	font-size: 12px;
+	color: #7b7a7a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
