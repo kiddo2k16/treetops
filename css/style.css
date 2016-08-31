@@ -893,3 +893,7 @@ background: linear-gradient(#ffffff 0%, #e8e8e8 100%); /* W3C, IE10+, FF16+, Chr
 	left: 0%;
 	background: #fff;
 }
+
+.tr8-pa-d {
+	margin-top:40px;
+}
