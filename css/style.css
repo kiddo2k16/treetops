@@ -694,6 +694,7 @@ background: linear-gradient(#ffffff 0%, #e8e8e8 100%); /* W3C, IE10+, FF16+, Chr
 }
 
 .tr8-h-col {
+	padding-top:30px;
 	background: #fff;
 	margin-bottom: 20px;
     border: 1px solid;
@@ -713,7 +714,7 @@ background: linear-gradient(#ffffff 0%, #e8e8e8 100%); /* W3C, IE10+, FF16+, Chr
 }
 
 .bg-color-tr8 {
-	padding:100px 0;
+	padding:10px 0;
 	background: #e9ebee;
 }
 
@@ -853,10 +854,11 @@ background: linear-gradient(#ffffff 0%, #e8e8e8 100%); /* W3C, IE10+, FF16+, Chr
     float: left;
     width: 180px;
 	padding-top:20px;
+	position: fixed;
 }
 .middle-tr {
 	overflow: hidden;
-    margin:;
+    margin-left:170px;
 	padding: 0 20px;
 }
 
@@ -883,4 +885,11 @@ background: linear-gradient(#ffffff 0%, #e8e8e8 100%); /* W3C, IE10+, FF16+, Chr
 	background: #f04242;
 	padding-top:20px;
 	color: #fff;
+}
+
+.s-nav {
+	position:fixed;
+	top: 0px;
+	left: 0%;
+	background: #fff;
 }
